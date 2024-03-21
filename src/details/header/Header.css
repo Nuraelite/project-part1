@@ -1,0 +1,81 @@
+/* Header.css */
+
+header {
+  position: none;
+
+  top: 0%;
+  left: 0%;
+  right: 0%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: #000000;
+}
+
+.logo {
+  width: 20%;
+  height: auto;
+  max-width: 20%;
+}
+
+.nav_bar {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 100px;
+  
+}
+
+.nav_bar li {
+  position: relative;
+}
+
+.nav_bar a {
+  text-decoration: none;
+  color: #383b38;
+  font-family: 'Segoe UI', sans-serif;
+  
+  font-size: 11pt;
+  transition: color 0.3s ease;
+}
+
+.nav_bar a:hover {
+  color: #2f5663;
+}
+
+.icon_profile {
+  width: 17px;
+  height: auto;
+  margin-right: 5px;
+}
+
+/* Анимация нажатия кнопки */
+.nav_bar a:active {
+  transform: translateY(5px);
+}
+
+.nav_bar li:first-child a {
+  color: blue;
+}
+
+.btn {
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #0e3ea4;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+ }
+ 
+ .btn:hover {
+  background-color: #0e3ea4;
+ }

@@ -1,0 +1,80 @@
+.blue-text {
+  color: blue;
+}
+
+body {
+  text-align: left;
+  margin: 0;
+  background-color: rgb(89, 86, 82);
+}
+
+.home {
+  display: flex;
+  flex-direction: column; /* Используйте столбец вместо строки */
+  align-items: center; /* Центрируйте по центру горизонтально */
+  padding: 50px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.text-container {
+ text-align: center; 
+  margin-top: 20px; 
+}
+
+.text-container h2 {
+  font-size: 48px;
+  margin-top: 40px;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: bold;
+  margin-right: 400px;
+  
+}
+
+.text-container p {
+  font-size: 18 px;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 100%;
+  word-wrap: break-word;
+}
+
+.scroll-btn {
+  max-width: 40%;
+  width: 50px;
+  height: 50px;
+  background: rgba(0, 0, 0, 0);
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px; 
+  margin-right: 400px;
+}
+
+.scroll-btn img {
+  width: 100%; /* Используйте 100% ширины для изображения */
+  height: auto;
+  ;
+}
+
+.home-img {
+  max-width: 60%;
+  height: auto;
+  margin-left: 500px;
+}
+
+.trading-rules {
+  font-size: 24px;
+  margin-top: 40px;
+  font-family: 'Segoe UI', sans-serif;
+  font-weight: bold;
+  margin-right: 500px;
+}
+.trading-rules {
+  margin-top: 20px; /* Добавим отступ сверху, чтобы разделить текст от предыдущего контента */
+}
+
+.trading-rules p {
+  margin-bottom: 10px; /* Добавим небольшой отступ снизу для разделения абзацев */
+  text-align: justify; /* Выравнивание текста по ширине */
+}

@@ -1,0 +1,43 @@
+/* ContactUs.css */
+
+.contact-us {
+    font-family: 'Segoe UI', sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .contact-us-left {
+    flex: 1;
+  }
+  
+  .contact-us-adress {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .contact-us h1 {
+    color: #000000;
+    margin-top: 0; /* Избавляемся от верхнего отступа у h1 */
+  }
+  
+  .contact-us h2 {
+    color: #777;
+  }
+  
+  .contact-us p {
+    color: #000000;
+    margin-bottom: 15px;
+  }
+  
+  div.contact-us-adress p {
+    margin-left: 200px;
+  }
+
+  .contact-us  p a {
+    margin-left: 200px;
+  }
+
+  div.contact-us-adress h2 {
+    margin-right: 100px;
+  }
